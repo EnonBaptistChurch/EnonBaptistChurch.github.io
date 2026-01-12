@@ -1,37 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Enon Baptist Church Tools</title>
-  <meta name="robots" content="noindex, nofollow">
+  <meta name="robots" content="noindex, nofollow" />
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-800">
-  <header class="bg-blue-950 text-white p-1">
+
+<body class="bg-gray-100 text-gray-800 min-h-screen flex flex-col">
+  <!-- Header -->
+  <header class="bg-blue-950 text-white px-6 py-4">
     <h1 class="text-3xl font-bold">Enon Baptist Church Tools</h1>
   </header>
 
-  <main class="p-6">
-    <p class="text-lg">Welcome to our church tools website! These are tools to help manage our church activities.</p>
-
-    <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-  <a
-    href="/song-selector"
-    class="block bg-white p-3 rounded-xl shadow hover:shadow-lg transition border border-gray-200"
-  >
-    <h2 class="text-xl font-semibold text-blue-900">🎵 Song Selector</h2>
-    <p class="mt-2 text-gray-600">
-      Choose and manage songs for church services.
+  <!-- Main -->
+  <main class="flex-1 p-6 max-w-7xl mx-auto w-full">
+    <p class="text-lg mb-8">
+      Welcome to our church tools website! These are tools to help manage our church activities.
     </p>
-  </a>
-</div>
+
+    <!-- Tools -->
+    <h2 class="text-2xl font-semibold mb-4 text-gray-900">Tools</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <!-- Song Selector -->
+      <a
+        href="/song-selector"
+        class="block bg-white p-4 rounded-xl shadow border border-gray-200 hover:shadow-lg transition"
+      >
+        <h3 class="text-xl font-semibold text-blue-900">🎵 Song Selector</h3>
+        <p class="mt-2 text-gray-600">
+          Choose and manage songs for church services.
+        </p>
+      </a>
+
+      <!-- Youth -->
+      <a
+        href="/youth"
+        class="block bg-white p-4 rounded-xl shadow border border-gray-200 hover:shadow-lg transition"
+      >
+        <h3 class="text-xl font-semibold text-blue-900">🧑‍🤝‍🧑 Youth</h3>
+        <p class="mt-2 text-gray-600">
+          Resources and tools for the youth ministry.
+        </p>
+      </a>
+
+      <div
+        class="block bg-gray-50 p-4 rounded-xl border border-dashed border-gray-300 text-gray-400 cursor-not-allowed"
+      >
+        <h3 class="text-xl font-semibold">🎙 Sermon Metadata Generator</h3>
+        <p class="mt-2">
+          Generate consistent metadata for sermons and uploads.
+        </p>
+        <span class="inline-block mt-3 text-sm font-medium bg-gray-200 text-gray-600 px-2 py-1 rounded">
+          Coming soon
+        </span>
+      </div>
+
+      <!-- Coming Soon: Prayermate -->
+      <div class="block bg-gray-50 p-4 rounded-xl border border-dashed border-gray-300 text-gray-400 cursor-not-allowed">
+        <h3 class="text-xl font-semibold">🙏 Prayermate Config Editor</h3>
+        <p class="mt-2">
+          Easily manage and generate Prayermate configuration files.
+        </p>
+        <span class="inline-block mt-3 text-sm font-medium bg-gray-200 text-gray-600 px-2 py-1 rounded">
+          Coming soon
+        </span>
+      </div>
+
+      <div
+        class="block bg-gray-50 p-4 rounded-xl border border-dashed border-gray-300 text-gray-400 cursor-not-allowed"
+      >
+        <h3 class="text-xl font-semibold">Church Rota Generator</h3>
+        <p class="mt-2">
+          Formulate Church Rotas.
+        </p>
+        <span class="inline-block mt-3 text-sm font-medium bg-gray-200 text-gray-600 px-2 py-1 rounded">
+          Coming soon
+        </span>
+      </div>
+    </div>
+
+    <!-- Downloads -->
+    <h2 class="text-2xl font-semibold mt-12 mb-4 text-gray-900 ">
+      Downloadable Apps
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
+      <div class="bg-gray-50 p-4 rounded-xl border border-dashed border-gray-300 text-gray-400">
+        <h3 class="text-xl font-semibold cursor-not-allowed bg-gray-50">📦 "The Sphere"</h3>
+        <p class="mt-2  bg-gray-50">
+          A Game inspired by a TV show to be run on a laptop and a projector.
+        </p>
+        <span class="inline-block mt-3 text-sm font-medium bg-gray-200 text-gray-600 px-2 py-1 rounded">
+          Downloads coming soon
+        </span>
+      </div>
+    </div>
   </main>
 
-
-
-  <footer class="bg-gray-800 text-white p-4 mt-6 text-center">
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white p-4 text-center text-sm">
     &copy; 2025 Enon Baptist Church
   </footer>
 </body>
