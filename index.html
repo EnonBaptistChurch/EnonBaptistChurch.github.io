@@ -138,7 +138,11 @@
 
   <!-- Footer -->
   <footer class="bg-gray-800 text-white p-4 text-center text-sm">
-    &copy; 2025 Enon Baptist Church
+    &copy; 2025-<span id="current-year"></span> Enon Baptist Church
   </footer>
 </body>
 </html>
+
+<script>
+  document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
