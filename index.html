@@ -12,12 +12,12 @@
 <body class="bg-gray-100 text-gray-800 min-h-screen flex flex-col">
   <!-- Header -->
   <header class="bg-blue-950 text-white pl-1">
-      <a href="/">
-        <h1 class="text-3xl font-bold">
-          Enon Baptist Church Tools
-        </h1>
-      </a>
-    </header>
+    <a href="/">
+      <h1 class="text-3xl font-bold">
+        Enon Baptist Church Tools
+      </h1>
+    </a>
+  </header>
 
   <!-- Main -->
   <main class="flex-1 p-6 max-w-7xl mx-auto w-full">
@@ -28,6 +28,7 @@
     <!-- Tools -->
     <h2 class="text-2xl font-semibold mb-4 text-gray-900">Tools</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
       <!-- Song Selector -->
       <a
         href="/song-selector"
@@ -35,7 +36,7 @@
       >
         <h3 class="text-xl font-semibold text-blue-900">🎵 Song Selector</h3>
         <p class="mt-2 text-gray-600">
-          Choose and manage songs for church services.
+          Choose songs for services and track usage history to avoid overuse.
         </p>
       </a>
 
@@ -50,56 +51,88 @@
         </p>
       </a>
 
+      <!-- Notice Sheet Generator -->
       <div
-        class="block bg-gray-50 p-4 rounded-xl border border-dashed border-gray-300 text-gray-400 cursor-not-allowed"
+        class="block bg-gray-50 p-4 rounded-xl border border-dashed border-gray-300 text-gray-400"
       >
-        <h3 class="text-xl font-semibold">🎙 Sermon Metadata Generator</h3>
+        <h3 class="text-xl font-semibold">📰 Notice Sheet Generator</h3>
         <p class="mt-2">
-          Generate consistent metadata for sermons and uploads.
+          Create consistent weekly notice sheets and export to Word, PDF, and plain text.
         </p>
         <span class="inline-block mt-3 text-sm font-medium bg-gray-200 text-gray-600 px-2 py-1 rounded">
           Coming soon
         </span>
       </div>
 
-      <!-- Coming Soon: Prayermate -->
-      <div class="block bg-gray-50 p-4 rounded-xl border border-dashed border-gray-300 text-gray-400 cursor-not-allowed">
-        <h3 class="text-xl font-semibold">🙏 Prayermate Config Editor</h3>
-        <p class="mt-2">
-          Easily manage and generate Prayermate configuration files.
-        </p>
-        <span class="inline-block mt-3 text-sm font-medium bg-gray-200 text-gray-600 px-2 py-1 rounded">
-          Coming soon
-        </span>
-      </div>
-
+      <!-- Church Notifications -->
       <div
-        class="block bg-gray-50 p-4 rounded-xl border border-dashed border-gray-300 text-gray-400 cursor-not-allowed"
+        class="block bg-gray-50 p-4 rounded-xl border border-dashed border-gray-300 text-gray-400"
+      >
+        <h3 class="text-xl font-semibold">📢 Church Notifications</h3>
+        <p class="mt-2">
+          A central, mobile-friendly site for current church notices with filtering and expiry.
+        </p>
+        <span class="inline-block mt-3 text-sm font-medium bg-gray-200 text-gray-600 px-2 py-1 rounded">
+          Coming soon
+        </span>
+      </div>
+
+      <!-- Quarterly Calendar -->
+      <div
+        class="block bg-gray-50 p-4 rounded-xl border border-dashed border-gray-300 text-gray-400"
+      >
+        <h3 class="text-xl font-semibold">🗓 Quarterly Calendar Planner</h3>
+        <p class="mt-2">
+          Plan church events quarterly and export them directly to Google Calendar.
+        </p>
+        <span class="inline-block mt-3 text-sm font-medium bg-gray-200 text-gray-600 px-2 py-1 rounded">
+          Coming soon
+        </span>
+      </div>
+
+      <!-- Church Rota Generator -->
+      <div
+        class="block bg-gray-50 p-4 rounded-xl border border-dashed border-gray-300 text-gray-400"
       >
         <h3 class="text-xl font-semibold">Church Rota Generator</h3>
         <p class="mt-2">
-          Formulate Church Rotas.
+          Formulate and balance church rotas across teams and roles.
         </p>
         <span class="inline-block mt-3 text-sm font-medium bg-gray-200 text-gray-600 px-2 py-1 rounded">
           Coming soon
         </span>
       </div>
+
     </div>
 
     <!-- Downloads -->
-    <h2 class="text-2xl font-semibold mt-12 mb-4 text-gray-900 ">
+    <h2 class="text-2xl font-semibold mt-12 mb-4 text-gray-900">
       Downloadable Apps
     </h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+      <!-- Sermon Metadata Generator -->
       <div class="bg-gray-50 p-4 rounded-xl border border-dashed border-gray-300 text-gray-400">
-        <h3 class="text-xl font-semibold cursor-not-allowed bg-gray-50">📦 "The Sphere"</h3>
-        <p class="mt-2  bg-gray-50">
-          A Game inspired by a TV show to be run on a laptop and a projector.
+        <h3 class="text-xl font-semibold">🎙 Sermon Metadata Generator</h3>
+        <p class="mt-2">
+          Desktop app for generating consistent sermon metadata for uploads and archives.
+        </p>
+        <span class="inline-block mt-3 text-sm font-medium bg-gray-200 text-gray-600 px-2 py-1 rounded">
+          Downloads coming soon (In Development)
+        </span>
+      </div>
+
+      <!-- The Sphere -->
+      <div class="bg-gray-50 p-4 rounded-xl border border-dashed border-gray-300 text-gray-400">
+        <h3 class="text-xl font-semibold">📦 "The Sphere"</h3>
+        <p class="mt-2">
+          A game inspired by a TV show to be run on a laptop and a projector.
         </p>
         <span class="inline-block mt-3 text-sm font-medium bg-gray-200 text-gray-600 px-2 py-1 rounded">
           Downloads coming soon
         </span>
       </div>
+
     </div>
   </main>
 
